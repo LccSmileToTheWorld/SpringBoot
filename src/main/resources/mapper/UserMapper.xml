@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.study.springboot.mapper.UserMapper">
+
+    <insert id="addUser" parameterType="org.study.springboot.entity.User" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO user (name, age, create_time) VALUES (#{user.name}, #{user.age}, #{user.createTime})
+    </insert>
+    <update id="updateUser" parameterType="org.study.springboot.entity.User">
+        UPDATE user SET name=#{user.name}, age=#{user.age}, create_time=#{user.createTime} WHERE id=#{user.id}
+    </update>
+    <delete id="deleteUser" parameterType="java.lang.Integer">
+        DELETE FROM user WHERE id=#{id}
+    </delete>
+    <select id="getUser" parameterType="java.lang.Integer" resultType="org.study.springboot.entity.User">
+        SELECT * FROM user WHERE id=#{id}
+    </select>
+    <select id="getUsers" resultType="org.study.springboot.entity.User">
+        SELECT * FROM user
+    </select>
+</mapper> 
