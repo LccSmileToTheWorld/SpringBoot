@@ -6,12 +6,12 @@
 </head>
 <body>
 <div>
-    <input value="用户名：">
-    <input th:value="${user.name}">
+    <span>用户：</span>
+    <input th:value="${user.name}" readonly="readonly">
 </div>
 <div>
-    <input value="年龄：">
-    <input th:value="${user.age}">
+    <span>年龄：</span>
+    <input th:value="${user.age}" readonly="readonly">
 </div>
 
 </body>

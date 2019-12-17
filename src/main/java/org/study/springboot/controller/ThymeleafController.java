@@ -9,16 +9,16 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @ClassName: HtmlController
+ * @ClassName: ThymeleafController
  * @Description:
  * @Author: Lcc
  * @Date: 2019/8/9
  * @Version 1.0
  */
 @Controller
-public class HtmlController {
+public class ThymeleafController {
 
-    @RequestMapping("/to")
+    @RequestMapping("/index")
     public ModelAndView ThymeleafTest(){
         Map<String, Object> map = new HashMap<>();
         User user = new User();

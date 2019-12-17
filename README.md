@@ -14,10 +14,10 @@ CREATE TABLE `user` (
 * 注意浏览器标签页图标
 ***
 ## Thymeleaf
-http://localhost:8081/to
+http://localhost:8081/index
 ***
 ## druid监控
-http://localhost:8081/druid
+http://localhost:8081/druid  admin/admin
 ***
 ## 增删改查，加入缓存redis(不清楚连接池用没用)，log在项目中的使用
 * http://localhost:8081/addUser?name=lisi&age=18
@@ -34,3 +34,5 @@ http://localhost:8081/druid
 * http://localhost:8081/simpleMail
 * http://localhost:8081/complexMail
 ***
+## Swagger2
+http://localhost:8081/swagger-ui.html

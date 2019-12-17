@@ -7,7 +7,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.study.springboot.entity.User;
-import org.study.springboot.utils.Constants;
 import org.study.springboot.utils.DateUtils;
 
 import javax.sql.DataSource;
@@ -32,11 +31,6 @@ public class SpringbootCoreApplicationTests {
     public void dateTest(){
         System.out.println(DateUtils.getToday());
         System.out.println(new User() == new User());
-    }
-
-    @Test
-    public void sourceTest(){
-        System.out.println(Constants.upload_path);
     }
 
 }
