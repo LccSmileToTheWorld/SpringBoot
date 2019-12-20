@@ -40,7 +40,7 @@ spring:
   mail:
     host: smtp.qq.com
     username: 2970988183@qq.com
-    password: rxpdmbqxriwwigde
+    password: kwdyeyzliempdfgd
 
   redis:
     host: 10.1.1.160
@@ -52,6 +52,9 @@ spring:
         
   thymeleaf:
     cache: false
+
+  resources:
+    static-locations: [classpath:static/,file:C:/] #设置静态文件寻找路径
 
 
 mybatis:

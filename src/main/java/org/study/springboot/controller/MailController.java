@@ -40,7 +40,7 @@ public class MailController {
         message.setSubject("部门例会");
         message.setText("明天上午九点第一会议室开会");
         message.setFrom("2970988183@qq.com");
-        message.setTo("1476445302@qq.com");
+        message.setTo("550441596@qq.com");
         mailSender.send(message);
         return "发送成功";
     }
@@ -58,9 +58,9 @@ public class MailController {
         MimeMessageHelper helper = new MimeMessageHelper(message, true);
         helper.setSubject("部门例会");
         helper.setText("<b style='color:red'>明天上午九点第一会议室开会</b>", true);
-        helper.addAttachment("会议室图片.jpg", new File("C:\\Users\\lcc\\Desktop\\study\\timg.jpg"));
+        helper.addAttachment("会议室图片.jpg", new File("C:\\Users\\lcc\\Desktop\\study\\image\\timg.jpg"));
         helper.setFrom("2970988183@qq.com");
-        helper.setTo("1476445302@qq.com");
+        helper.setTo("550441596@qq.com");
         mailSender.send(message);
         return "发送成功";
     }
