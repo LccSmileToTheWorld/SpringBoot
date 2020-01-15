@@ -1,4 +1,4 @@
-package org.study.springboot.utils;
+package org.study.springboot.util;
 
 import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
 import com.baomidou.mybatisplus.core.toolkit.StringPool;

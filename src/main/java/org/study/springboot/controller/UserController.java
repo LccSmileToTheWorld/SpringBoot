@@ -12,11 +12,11 @@ import java.io.*;
 import java.util.List;
 
 /**
- * @ClassName: UserController
- * @Description: User增删改查
- * @Author: Lcc
- * @Date: 2019/8/6
- * @Version 1.0
+ * 用户模块Controller.
+ *
+ * @author lcc
+ * @version 1.0
+ * @date 2020/1/15
  */
 @RestController
 @Api(value = "用户模块", tags = {"用户模块"})

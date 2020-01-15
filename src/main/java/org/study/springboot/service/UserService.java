@@ -14,20 +14,18 @@ import java.util.List;
 public interface UserService {
 
     /**
-     * @Author: Lcc
-     * @Description: 根据id查询用户
-     * @Date: 2019/8/6
-     * @param id
-     * @Return: org.study.springboot.entity.User
+     * <p> 根据客户id查询客户信息.
+     *
+     * @param id 客户id
+     * @return {@link User}
      */
     User getUser(Integer id);
 
     /**
-     * @Author: Lcc
-     * @Description: 查询所有用户
-     * @Date: 2019/8/6
+     * <p>
+     *
      * @param
-     * @Return: java.utils.List<org.study.springboot.entity.User>
+     * @return {@link List< User>}
      */
     List<User> getUsers();
 

@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.study.springboot.entity.User;
-import org.study.springboot.utils.DateUtils;
+import org.study.springboot.util.DateUtils;
 
 import javax.sql.DataSource;
 import java.sql.SQLException;

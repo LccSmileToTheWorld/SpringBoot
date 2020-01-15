@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.study.springboot.entity.User;
 import org.study.springboot.mapper.UserMapper;
 import org.study.springboot.service.UserService;
-import org.study.springboot.utils.RedisUtils;
+import org.study.springboot.util.RedisUtils;
 
 import java.util.Date;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.study.springboot.utils;
+package org.study.springboot.util;
 
 import java.sql.Timestamp;
 import java.text.DateFormat;
@@ -67,7 +67,7 @@ public final class DateUtils {
      * @Date: 2019/11/19
      * @param pattern：指定格式
      * @param strDate：时间
-     * @Return: java.utils.Date
+     * @Return: java.util.Date
      */
     public static final Date str2Date(String pattern, String strDate) {
         Date date = null;
@@ -85,7 +85,7 @@ public final class DateUtils {
      * @Description: 字符串类型转换为时间类型（yyyy-MM-dd）
      * @Date: 2019/11/19
      * @param strDate
-     * @Return: java.utils.Date
+     * @Return: java.util.Date
      */
     public static final Date str2Date(String strDate){
         return str2Date(DATE_PATTERN, strDate);
@@ -96,7 +96,7 @@ public final class DateUtils {
      * @Description: 字符串类型转换为时间类型（yyyy-MM-dd HH:mm:ss）
      * @Date: 2019/11/19
      * @param strDate
-     * @Return: java.utils.Date
+     * @Return: java.util.Date
      */
     public static final Date str2DateTime(String strDate){
         return str2Date(TIME_PATTERN, strDate);

@@ -1,4 +1,4 @@
-package org.study.springboot.utils;
+package org.study.springboot.util;
 
 /**
  * @ClassName: ExcelUtils

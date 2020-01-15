@@ -1,4 +1,4 @@
-package org.study.springboot.utils;
+package org.study.springboot.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -341,7 +341,7 @@ public class RedisUtils {
      * @Author: Lcc
      * @Description: 根据key获取Set中的所有值
      * @Date: 2019/8/8
-     * @Return: java.utils.Set<java.lang.Object>
+     * @Return: java.util.Set<java.lang.Object>
      */
     public Set<Object> sGet(String key) {
         try {
@@ -451,7 +451,7 @@ public class RedisUtils {
      * @Author: Lcc
      * @Description: 获取list缓存的内容
      * @Date: 2019/8/8
-     * @Return: java.utils.List<java.lang.Object>
+     * @Return: java.util.List<java.lang.Object>
      */
     public List<Object> lGet(String key, long start, long end) {
         try {

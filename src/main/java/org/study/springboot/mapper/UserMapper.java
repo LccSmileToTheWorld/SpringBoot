@@ -31,7 +31,7 @@ public interface UserMapper {
      * @Description: 查询所有用户
      * @Date: 2019/8/7
      * @param
-     * @Return: java.utils.List<org.study.springboot.entity.User>
+     * @Return: java.util.List<org.study.springboot.entity.User>
      */
     List<User> getUsers();
 
