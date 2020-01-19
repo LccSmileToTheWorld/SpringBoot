@@ -19,13 +19,13 @@ import java.util.List;
  * @date 2020/1/15
  */
 @RestController
-@Api(value = "用户模块", tags = {"用户模块"})
+@Api(value = "api.value: 用户模块", tags = {"api.tags: 用户模块"})
 public class UserController {
 
     @Autowired
     private UserService userService;
 
-    @ApiOperation(value = "查询用户", notes = "根据id查询")
+    @ApiOperation(value = "ApiOperation.value: 查询用户", notes = "ApiOperation.notes: 根据id查询")
     @GetMapping("/user/{id}")
     public User getUser(@PathVariable("id") Integer id) {
         return userService.getUser(id);
